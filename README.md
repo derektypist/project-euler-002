@@ -25,6 +25,22 @@ As a user, I expect to get an error message, if I do any of:
     - Entering a number, but it is not an integer
     - Entering a number less than 0 or greater than 5000000 (5 million)
 
+As a user, I expect `fiboEvenSum(10)` to return a number.
 
+As a user, I expect `fiboEvenSum(8)` to return 10.
+
+As a user, I expect `fiboEvenSum(34)` to return 44.
+
+As a user, I expect `fiboEvenSum(60)` to return 44.
+
+As a user, I expect `fiboEvenSum(1000)` to return 798.
+
+As a user, I expect `fiboEvenSum(100000)` to return 60696.
+
+As a user, I expect `fiboEvenSum(4000000)` to return 4613732.
+
+**Information Architecture**
+
+The function `fiboEvenSum(n)` returns a number (integer), where `n` is a number between 0 and 5000000.
 
 
