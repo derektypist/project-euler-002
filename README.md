@@ -43,4 +43,29 @@ As a user, I expect `fiboEvenSum(4000000)` to return 4613732.
 
 The function `fiboEvenSum(n)` returns a number (integer), where `n` is a number between 0 and 5000000.
 
+## Features
 
+Allows the user to enter a number as well as seeing the sum of the even Fibonacci Numbers up to and including that number.  For example, if the number was 34, the sum of the even Fibonacci Numbers is 44 (because of 2, 8 and 34).  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.1.3 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-002) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Project Euler](https://projecteuler.net)
+- [FreeCodeCamp](https://www.freecodecamp.org)
