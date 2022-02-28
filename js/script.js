@@ -15,3 +15,24 @@ function getNumberInfo() {
     // Display Information in the Browser
     document.getElementById("numinfo").innerHTML = txt;
 }
+
+/*
+    Function to Return the Sum of All Even Fibonacci Sequence Elements
+    that are equal to or less than n
+*/
+function fiboEvenSum(n) {
+    if (n<=1) return 0;
+
+    // Set Up Variable
+    let fibs = [1,1];
+    // Apply While Loop
+    while (fibs[fibs.length-1] <= n) {
+        fibs.push((fibs[fibs.length-2] + fibs[fibs.length-1]));
+    }
+
+    // Filter the Even Fibonacci Numbers and Store in New Array
+    let evenFibs = fibs.filter((i) => i%2 == 0);
+
+    // Calculate the sum of Even Fibonacci Numbers and Return
+    return evenFibs.reduce((p,c) => p + c, 0);
+}
