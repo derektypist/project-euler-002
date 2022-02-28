@@ -24,7 +24,7 @@ function fiboEvenSum(n) {
     if (n<=1) return 0;
 
     // Set Up Variable
-    let fibs = [1,1];
+    let fibs = [1,2];
     // Apply While Loop
     while (fibs[fibs.length-1] <= n) {
         fibs.push((fibs[fibs.length-2] + fibs[fibs.length-1]));
