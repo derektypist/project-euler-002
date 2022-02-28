@@ -8,4 +8,23 @@ By considering the terms in the Fibonacci Sequence whose values do not exceed a 
 
 The aim is to implement this using HTML Forms and JavaScript.
 
+Information is at [Project Euler 002](https://projecteuler.net/problem=2)
+
+## UX
+
+**Getting Started**
+
+Enter a whole number between 0 and 5000000 and click on the Submit Button.  You will see the number that you have entered as well as the sum of Even Fibonacci Numbers up to and including the number, unless you have made an invalid input.  Click on the Reset Button to clear the information or to start again.
+
+**User Stories**
+
+As a user, I expect to get an error message, if I do any of:
+
+    - Not enter a value in the input field
+    - Entering text that is not a number (e.g. bus)
+    - Entering a number, but it is not an integer
+    - Entering a number less than 0 or greater than 5000000 (5 million)
+
+
+
 
